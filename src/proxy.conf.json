@@ -1,0 +1,6 @@
+{
+    "/api/contacts": {
+        "target": "http://localhost:8081/api/contacts",
+        "secure": false
+    }
+}

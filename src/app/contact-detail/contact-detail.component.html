@@ -1,0 +1,9 @@
+<div *ngIf="contact">
+    <h2>{{contact.fname | uppercase}}, {{contact.lname | uppercase}}</h2>
+    <div><span>id: </span>{{contact.id}}</div>
+    <div *ngIf="contact.salutation">
+        <label for="salutation">Salutation: </label>
+        <input id="salutation" [(ngModel)]="contact.salutation" placeholder="Mr"/>
+    </div>
+    <button type="button" (click)="goBack()">Go Back</button>
+</div>

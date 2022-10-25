@@ -70,6 +70,10 @@
               "browserTarget": "addrbookfe:build:development"
             }
           },
+          "options": {
+            "browserTarget": "addrbookfe:build:development",
+            "proxyConfig": "src/proxy.conf.json"
+          },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
